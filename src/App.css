@@ -22,15 +22,24 @@ body{
 }
 
 
+
+
+/***** MAIN COMPONENET *****/
+.main{
+  height:70vh ;
+}
+
+
+
 /***** FOOTER COMPONENET *****/
 .footer{
   background-color: #000000;
   color:#F0ECE5;
-  height: 15vh;
+  height: 12vh;
 }
 
 .footer h3{
-  padding: 1rem;
+  padding: 1.5rem;
   font-size: 1rem;
   text-align: center;
 }
