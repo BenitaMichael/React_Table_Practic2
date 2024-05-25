@@ -8,3 +8,14 @@ body{
   background-color: #F0ECE5;
 }
 
+
+/***** HEADER COMPONENET *****/
+.header{
+  background-color: #000000;
+  color:#F0ECE5;
+  height: 18vh;
+}
+
+.header h1{
+  padding: 2rem;
+}
