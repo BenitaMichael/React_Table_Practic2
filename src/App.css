@@ -31,7 +31,12 @@ body{
 /***** MAIN COMPONENET *****/
 .main{
   height:70vh ;
+  padding: 2rem;
 }
+
+/**-- TABLE --**/
+
+
 
 
 
