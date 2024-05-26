@@ -20,9 +20,11 @@ body{
   padding: 2rem;
   font-size: 2rem;
 }
+
 @media only screen and (max-width: 600px) {
   .header{
     height: 12vh;
+    width: 100%
   }
 }
 
@@ -31,12 +33,27 @@ body{
 /***** MAIN COMPONENET *****/
 .main{
   height:70vh ;
-  padding: 2rem;
+  padding: 3rem 2rem;
 }
 
 /**-- TABLE --**/
+.main table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2.2rem;
+}
 
+table td, th {
+  border: 1px solid #bcbcbc;
+  text-align: left;
+  padding: 12px;
+  text-align: center;
+}
 
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
 
 
 
@@ -45,6 +62,7 @@ body{
   background-color: #000000;
   color:#F0ECE5;
   height: 12vh;
+  width: 100%
 }
 
 .footer h3{
